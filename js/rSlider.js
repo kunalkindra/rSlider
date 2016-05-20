@@ -14,13 +14,13 @@
 
         //default config options.
         var defaults = {
-                value: 0,   //Default value on load
+                value: 25,   //Default value on load
                 start: 0,   //Start point on bar - can be/not be equal to min
-                end: 0,   //End point on bar - can be/not be equal to min
+                end: 100,   //End point on bar - can be/not be equal to min
                 min: 0,    //Min val the slider can take, start <= min <= max <= end
                 max: 90,    //Max val the slider can take, start <= min <= max <= end
                 animDuration: 100,  //in milliseconds, used when clicked on bar
-                stepSize: 1,    //Hop size, resolution, to control no of values between start and end
+                stepSize: 5,    //Hop size, resolution, to control no of values between start and end
                 showScale: true,    //Markings below the bar showing values
                 cueBGClass: '',    //Add a custom background to your cue using this class
                 showOutputOnCue: true,   //Show current value on top of cue
