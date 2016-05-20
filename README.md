@@ -11,6 +11,6 @@ Basic usage - jQuery plugin
 
 And voila, here is your slider.
 
-![rSlider](/images/dummy.jpg)
+![rSlider](/images/dummySlider.jpg)
 
 Dont forget to include the stylesheet along with the js file.
